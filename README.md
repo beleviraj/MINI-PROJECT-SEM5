@@ -31,3 +31,38 @@ Ensure you have Python installed, along with the following dependencies:
 
 ```sh
 pip install numpy opencv-python imutils
+```
+
+# Running the Project
+
+## Requirements
+- A connected webcam
+- Python installed on your system
+
+## How to Run
+1. Connect a webcam to your system.
+2. Run the script:
+   ```sh
+   python drum.py
+3. Adjust the HSV values using `corrected_color_detection.py` if needed.
+4. Open *Asphalt 9* or a similar game and start playing using hand gestures!
+
+## Controls
+- **Move your hand left** → Steers left (`A` key press)
+- **Move your hand right** → Steers right (`D` key press)
+- **Move your hand down** → Activates nitro (`Space` key press)
+- **Press 'q'** → Exit the program
+
+## Notes
+- Ensure good lighting conditions for better color detection.
+- Adjust the HSV values in `corrected_color_detection.py` for optimal performance.
+- Designed for **Windows OS** due to keyboard simulation using `ctypes`.
+
+## Author
+This project was developed as part of a **Semester 5 Mini Project** by **[Viraj Bele,Siddhi Lipare,Saniya Chavan,Hardik Tandale]**. Guided by **Dr. P S More Ma'am**.
+
+## Acknowledgments
+Special thanks to:
+- **OpenCV and NumPy** community
+
+
